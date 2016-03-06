@@ -1,0 +1,19 @@
+<ion-view view-title="Login">
+<ion-content class="padding">
+
+<form ng-submit="login()">
+<div class="list list-inset">
+		<label class="item item-input" >
+			<i class="icon ion-person placeholder-icon"> </i><input type="email" placeholder="Email" ng-model="loginData.email" autofocus="true">
+		</label>
+
+		<label class="item item-input">   
+			<i class="icon ion-key placeholder-icon"></i><input type="password" placeholder="Password" ng-model="loginData.password">
+		</label>
+	</div>
+	<!-- login submit button -->
+	<button type="submit" class="button button-block button-balanced">Login</button>
+</form>
+
+</ion-content>
+</ion-view>

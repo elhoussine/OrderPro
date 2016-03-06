@@ -1,0 +1,1 @@
+var OrderProService = angular.module('starter.services', ['ionic']);
